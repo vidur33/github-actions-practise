@@ -1,0 +1,11 @@
+name: hello
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latesti
+    steps:  
+    - name: say hello 
+      run: echo "Vidur is best"
